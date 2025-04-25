@@ -40,7 +40,8 @@ public class Main {
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
-            webBrowser.getWebDriver().quit();
         }
+
+        webBrowser.getWebDriver().quit();
     }
 }
